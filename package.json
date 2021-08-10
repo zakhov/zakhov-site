@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-surge-starter-pack",
+  "name": "zakhov-domain-v2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
     "serve": "npm run export && serve ./dist",
     "deploy": "npm run export && npx surge --domain `cat CNAME` dist"
   },
-  "author": "Jonatan Anauati",
+  "author": "Zaki",
   "license": "ISC",
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "serve": "^10.1.1"
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serve": "^12.0.0"
   },
   "devDependencies": {
-    "surge": "^0.20.1"
+    "surge": "^0.23.0"
   }
 }
