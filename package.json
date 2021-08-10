@@ -27,7 +27,7 @@
 			"eslint --quiet --fix",
 			"pretty-quick --staged"
 		],
-		"*.{md|json}": [
+		"*.{md,json}": [
 			"pretty-quick --staged"
 		]
 	},
